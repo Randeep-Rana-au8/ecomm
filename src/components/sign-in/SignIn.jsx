@@ -25,7 +25,7 @@ class SignIn extends Component {
   };
   render() {
     return (
-      <div>
+      <div className="sign-in">
         <h2>I already have a account</h2>
         <span>Sign in with Email and Password</span>
         <form onSubmit={this.handleSubmit}>
@@ -47,7 +47,7 @@ class SignIn extends Component {
             required
           />
 
-          <input type="submit" />
+          <input type="submit" value="Submit" />
         </form>
       </div>
     );
